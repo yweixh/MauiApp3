@@ -13,6 +13,7 @@ public partial class MainPage : ContentPage
 		try
 		{
 			PhoneDialer.Open(PhoneNum.Text);
+   			Convert.ToInt32(PhoneNum);
 		}
 		catch
 		{
